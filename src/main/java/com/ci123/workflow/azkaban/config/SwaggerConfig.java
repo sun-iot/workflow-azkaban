@@ -26,7 +26,7 @@ public class SwaggerConfig {
     // 接口大标题
     private final String title = "任务调度框架API接口";
     // 具体的描述
-    private final String description = "任务调度框架API接口调用测试，Azkaban/Oozie/AirFlow";
+    private final String description = "任务调度框架Azkaban API接口调用测试";
     // 服务说明url
     private final String termsOfServiceUrl = "http://www.kingeid.com";
     // licence
@@ -34,7 +34,7 @@ public class SwaggerConfig {
     // licnce url
     private final String licenseUrl = "https://mit-license.org/";
     // 接口作者联系方式
-    private final Contact contact = new Contact("SunYang", "https://github.com/sun-iot/workflow", "sunyang.iot@gmail.com");
+    private final Contact contact = new Contact("SunYang", "https://github.com/sun-iot/workflow-azkaban", "sunyang.iot@gmail.com");
 
     @Bean
     public Docket createRestApi() {
@@ -48,7 +48,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("任务调度框架API接口")
+                .title("任务调度框架Azkaban API接口")
                 .description("简单优雅的restfun风格")
                 .termsOfServiceUrl("https://github.com/sun-iot/workflow-azkaban")
                 .version("1.0")
