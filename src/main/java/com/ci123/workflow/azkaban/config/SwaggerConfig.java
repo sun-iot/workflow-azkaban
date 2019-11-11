@@ -50,7 +50,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("任务调度框架API接口")
                 .description("简单优雅的restfun风格")
-                .termsOfServiceUrl("https://github.com/sun-iot/workflow")
+                .termsOfServiceUrl("https://github.com/sun-iot/workflow-azkaban")
                 .version("1.0")
                 .contact(contact)
                 .build();
